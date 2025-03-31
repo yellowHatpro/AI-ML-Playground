@@ -1,0 +1,21 @@
+[project]
+name = "ragging"
+version = "0.1.0"
+description = "RAG and stuff"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-core>=0.3.49",
+    "langchain[openai]>=0.3.21",
+    "langgraph>=0.3.21",
+    "langsmith>=0.3.19",
+    "python-dotenv>=1.1.0",
+    "pypdf>=4.0.1",
+    "faiss-cpu>=1.7.4",
+    "tiktoken>=0.5.2",
+    "langchain-community>=0.0.19",
+    "langchain-openai>=0.0.5",
+    "streamlit>=1.27.0",
+    "fpdf>=1.7.2",
+    "rapidocr-onnxruntime>=1.4.4",
+]
